@@ -1,0 +1,30 @@
+body {
+	background-image:url(../asset/image/bb.jpg);
+	background-size: 100%;
+}
+
+.login {
+	-left: 800px;
+	width: 250px;
+	height: 150px;
+	background-color: #abababab;
+	padding: 20px;
+	border : black 10px solid;	
+	margin: 0 auto;
+	margin-top: 300px;
+
+}
+
+
+.isi {
+	padding-top: 25px;
+	border: 5px;
+	text-align: center;
+
+
+}
+
+.isi a {
+	color: #162739;
+	text-decoration-line: none;
+}
