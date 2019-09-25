@@ -1,0 +1,53 @@
+body {
+	background-image: url(background.png);
+	background-repeat: repeat-x;
+
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	font-family: comic sans ms;
+	color: darkblue;
+
+}
+
+h2 {
+	text-align: center;
+
+}
+
+h4 {
+	text-align: right;
+	font-family: arial;
+	font-style: italic;
+
+}
+
+h3 {
+	font-variant: normal;
+	text-align: center;
+}
+p {
+	text-indent: 50px;
+	font-family: verdana;
+
+}
+
+.p1 {
+	color: salmon;
+	text-align: center;
+
+}
+
+#p2 {
+	line-height: 25px;
+	text-align: center;
+	color:darkred;
+}
+
+a:link {color: blue; text-decoration:none;}
+a:visited {color: blue; text-decoration:none;}
+a:hover {color: red; text-decoration:underline;}
+a:active {color: red; text-decoration:underline;}
+

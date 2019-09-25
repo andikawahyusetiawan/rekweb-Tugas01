@@ -1,0 +1,32 @@
+body {
+	background-color: khaki;
+	font-family: century gothic;
+}
+
+h1 {
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 60px;
+	color: darkblue;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	font-style: italic;
+
+}
+
+p {
+	text-align : justify;
+	text-indent: 60px;
+	line-height: 30px;
+}
+
+a:link {color: blue; text-decoration:none;}
+a:visited {color: blue; text-decoration:none;}
+a:hover {color: red; text-decoration:underline;}
+a:active {color: red; text-decoration:underline;}

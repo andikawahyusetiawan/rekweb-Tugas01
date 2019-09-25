@@ -1,0 +1,21 @@
+body {
+	background-color: aqua;
+	font-family: century gothic;
+}
+
+h1 {
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 30px;
+	color: darkblue;
+}
+
+h4 {
+	text-align: right;
+	font-style: italic;
+
+}
+
+p {
+	text-indent: justify;
+}
