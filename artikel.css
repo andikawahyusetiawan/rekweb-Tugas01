@@ -1,22 +1,48 @@
 .container {
-	border: 15px solid black;
-	width: 950px;
+	border: 15px solid lawngreen;
+	width: 1100px;
 	margin-left: 170px;
 	margin-top: auto;
-	height: 1800px;
+	height: 1500px;
 	background-color: white;
 
 }	
 
-.header {
-	width:950px;
-	color: white;
-	text-align: center;
-	padding: -30px;
-	background-color: #44749d;
-	line-height: 70px;
+.SpongeBob {
+	width: 200px;
+	height: 200px;
+	background-image: url(facebook.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 5px;
+	right: 210px;
+
 }
 
+.header {
+	width:1100px;
+	color: teal;
+	font-size: 25px;
+	text-align: center;
+	padding: -30px;
+	background-color: yellow;
+	line-height: 100px;
+	height: 100px;
+}
+.header ul li {
+	display: inline-block;
+	margin-top: -30px;
+	padding-left: 20px;
+	float: left;
+
+}
+
+.header a {
+	text-decoration: none ;	
+	color : red;
+}
 .main {
 	float: left;
 	height: 400px;
@@ -59,17 +85,21 @@
 }
 
 body {
-	background-image: url(foto2.Jpg);
-	background-size: auto;
+	background-color: skyblue;
+
 
 }
 
  h1 {
 	margin-top: auto;
-	font-size: 40px;
+	font-size: 60px;
 
 
 
+}
+
+.facebook {
+	background-image: url(facebook.png);
 }
 
 h3 {
@@ -91,7 +121,7 @@ p {
 }
 
 #p1 {
-	padding-top: 1px;
+	padding-top: 40px;
 }
 
 .image {
@@ -101,17 +131,16 @@ p {
 }
 
 img {
-	width: 950px;
+	width: 1100px;
 	height: 425px;
 
 }
 
 .footer {
 	height: 40px;
-	background-color: #44749d;
-	color: white;
+	background-color: yellow;
 	padding-bottom: 1px;
-	margin-top: 1563px;
+	margin-top: 1260px;
 	line-height: 35px;
 
 
@@ -119,9 +148,9 @@ img {
 
 #pfooter {
 	font-weight: normal;
-	color: white;
+	color: black;
 	text-align: center;
-	font-size: 18px;
+	font-size: 25px;
 	padding-bottom: 10px;
 
 
