@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>karakter diagonal 2</title>
+</head>
+<body>
+
+		<script type="text/javascript">
+			var inputan = prompt("masukkan inputan :");
+			var bintang = "";
+
+			for(var i=0; i <= inputan; i++) {
+				for(var j=inputan; j >= 0; j--) {
+					if(j >= i) {
+				bintang=bintang+"+";
+					
+				}else{
+					bintang=bintang+"#";
+					
+				}
+				}
+					bintang=bintang+"\n";
+			}
+			alert(bintang);
+		</script>
+
+</body>
+</html>
