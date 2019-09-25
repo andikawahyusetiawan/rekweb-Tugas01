@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 9c</title>
+</head>
+<body>
+	<h3>jawab pertanyan berikut ini:</h3>
+	<p>Apa kepanjangan dari HTML ?</p>
+	<p>jawaban:</p>
+	<a href="#" onclick="pilihAksi('tampilkan','jawaban'); return false">tampilkan</a>
+	<a href="">sembunyikan</a>
+
+	<p id="jawaban" style="display: none;">Hyper text languages</p>
+
+	<script>
+		
+		function pilihAksi(aksi, id) {
+			if (aksi == "tampilkan") {
+				document.getElementById('jawaban').style.display = "block";
+			}
+		}
+	</script>
+
+</body>
+</html>
